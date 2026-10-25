@@ -1,0 +1,12 @@
+{
+  "name": "{{SITE_NAME}}",
+  "short_name": "{{SITE_NAME}}",
+  "description": "{{DESCRIPTION}}",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "lang": "{{LANG}}",
+  "background_color": "{{THEME_COLOR}}",
+  "theme_color": "{{THEME_COLOR}}",
+  "icons": [{ "src": "assets/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }]
+}

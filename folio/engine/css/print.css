@@ -1,0 +1,15 @@
+/* Printing: chapters and cheat sheets without the interface around them. */
+:root { --base: 11.5pt; }
+body { background: #fff; color: #000; }
+.sidebar, .topbar, .tabbar, .footer, .outline, #toasts, .ch-tools, .sec-tools, .note, .quickcheck, .ch-links, .done-row, .pager, .related, .cheat-bar, .rd-progress, .table-tools { display: none !important; }
+.app { display: block; }
+.content { padding: 0; }
+.page { max-width: none; padding: 0; gap: 14pt; }
+.card, .ch-card, .tldr, .keypoints, .callout, .define, .case, .figure, .table-wrap, .cheat { break-inside: avoid; box-shadow: none !important; }
+.ch-head { background: none; border: 0; padding: 0; }
+.chapter.is-quick .depth-full { display: none; }
+a { color: inherit; }
+.cheat { margin-bottom: 14pt; padding-bottom: 10pt; border-bottom: 1px solid #999; }
+.cheat h3 { margin: 8pt 0 3pt; font-size: 11pt; }
+.cheat dl { margin: 0; } .cheat dt { font-weight: 700; } .cheat dd { margin: 0 0 4pt; }
+.deck { display: block; }

@@ -1,0 +1,10 @@
+{
+  "name": "{{SLUG}}-study-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "{{DESCRIPTION}}",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "license": "UNLICENSED"
+}

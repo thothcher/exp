@@ -1,0 +1,9 @@
+# Sites that already live in their own GitHub repos
+/body-lang/
+/psychoanalysis-reader/
+/SHTA/
+/ფსიქოპათლოგიები/
+
+# OS
+.DS_Store
+Thumbs.db
